@@ -1,0 +1,40 @@
+title: Emupedia
+email: ""
+description: ""
+baseurl: ""
+url: "https://emupedia.net/"
+markdown: kramdown
+exclude:
+  - .github/**
+  - beta/emuos/**/*.md
+  - beta/emuos/**/*.markdown
+  - .editorconfig
+  - .gitignore
+  - .gitpod.yml
+  - CNAME
+  - Dockerfile
+  - favicon-xmas.ico
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
+whitelist:
+  - jekyll-watch
+  - jekyll-textile-converter
+  - jekyll-sass-converter
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
+plugins:
+  - jekyll-watch
+  - jekyll-textile-converter
+  - jekyll-sass-converter
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jemoji
